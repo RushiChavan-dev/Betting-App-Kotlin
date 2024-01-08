@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "79890339841",
+    "project_id": "bilyoner-sprint",
+    "storage_bucket": "bilyoner-sprint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79890339841:android:73f23169365f1f1af5c800",
+        "android_client_info": {
+          "package_name": "com.example.sprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79890339841-ieirspmslgsb51fnf6889ebbnl87g3qr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sprint",
+            "certificate_hash": "c839e869fa12f1f852ab6216bec682e10832d795"
+          }
+        },
+        {
+          "client_id": "79890339841-97ok0tuhkuanurpgvl8uskjg09302k9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCbXdIkFMe3JJKs1tNfPuL_QSXBf0GeuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79890339841-97ok0tuhkuanurpgvl8uskjg09302k9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

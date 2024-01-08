@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="25dp"
+                    android:paddingVertical="24dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical"
+                        android:paddingTop="15dp">
+
+                        <TextView
+                            android:id="@+id/title_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:lineSpacingExtra="4dp"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:text="Force Update Title" />
+
+                        <TextView
+                            android:id="@+id/desc_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:gravity="center"
+                            android:lineSpacingExtra="4dp"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:text="Force update desc" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cancel_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:layout_marginStart="100dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:foreground="?selectableItemBackground"
+                            android:gravity="center"
+                            android:letterSpacing="0.05"
+                            android:singleLine="true"
+                            android:text="Exit"
+                            android:textColor="@color/black"
+                            android:textSize="14sp" />
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/confirm_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="45dp"
+                            android:layout_weight="1"
+                            android:foreground="?selectableItemBackground"
+                            app:cardBackgroundColor="@color/design_default_color_primary"
+                            app:cardCornerRadius="6dp"
+                            app:cardElevation="0dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_gravity="center"
+                                android:ellipsize="end"
+                                android:gravity="center"
+                                android:letterSpacing="0.05"
+                                android:singleLine="true"
+                                android:text="UPDATE"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/confetti_v"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/dialog_shape_circle"
+            android:padding="20dp"
+            android:src="@drawable/ic_stat_ic_notification"
+            app:tint="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

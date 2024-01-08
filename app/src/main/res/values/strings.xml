@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SprintBet</string>
+    <string name="default_notification_channel_id">Kotlin Base Notification-19972021</string>
+    <string name="loading">Loading…</string>
+    <string name="bulletin">Fixtures</string>
+    <string name="favorites">Favoriler</string>
+    <string name="no_results">No results 😓</string>
+    <string name="coupon">Kupon</string>
+    <string name="google">Google </string>
+    <string name="facebook">Facebook</string>
+    <string name="logout">Logout</string>
+    <string name="more">More</string>
+    <string name="odds">Odds</string>
+    <string name="Details">Details</string>
+    <string name="Match">Match</string>
+    <string name="add_match">Add Match</string>
+    <string name="coupon_price">Coupon Price</string>
+    <string name="odd">Odd</string>
+    <string name="max_price">Max Price</string>
+    <string name="price">Price</string>
+    <string name="coupon_price_tl">Coupon Price\n(TL)</string>
+    <string name="search">Search</string>
+</resources>
