@@ -20,6 +20,12 @@ The purpose of this project to illustrate the usage of MVVM architecture design 
 # DEMO
 
 
+![image](https://github.com/RushiChavan-dev/Betting-App-Kotlin/assets/50754786/7942692a-09dc-4a1b-ac53-d12a91a749f8)
+![image](https://github.com/RushiChavan-dev/Betting-App-Kotlin/assets/50754786/f04b8de5-3dec-4f80-8174-65d2bd87432f)
+![image](https://github.com/RushiChavan-dev/Betting-App-Kotlin/assets/50754786/21a522c6-953f-4355-89b3-b73053622ed6)
+![image](https://github.com/RushiChavan-dev/Betting-App-Kotlin/assets/50754786/5e06cc09-311d-4ff6-8ddc-55792aed5e02)
+![image](https://github.com/RushiChavan-dev/Betting-App-Kotlin/assets/50754786/cb897677-9bf2-4fe9-9051-bc92e500d1aa)
+![image](https://github.com/RushiChavan-dev/Betting-App-Kotlin/assets/50754786/142d311a-6e04-463f-92ca-3b520b95f768)
 
 https://user-images.githubusercontent.com/44908368/166661286-8dceb481-238c-4f25-9acf-ae76f54a2e04.mp4
 
